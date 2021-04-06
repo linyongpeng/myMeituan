@@ -6,7 +6,7 @@ Vue.use(Vuex)
 const state = {
   position: {},
   // 存储登录姓名
-  userName: ''
+  userName: '2333'
 }
 
 const mutations = {
