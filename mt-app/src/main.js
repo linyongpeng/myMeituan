@@ -17,11 +17,12 @@ Vue.directive('document-click', {
     document.addEventListener('click', binding.value, false)
   },
   inserted () {
+
     console.log('insert, 123')
   },
   update () {
     console.log('update, 123')
-  }
+  },
 })
 
 /* eslint-disable no-new */
