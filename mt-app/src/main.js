@@ -17,10 +17,10 @@ Vue.directive('document-click', {
     document.addEventListener('click', binding.value, false)
   },
   inserted () {
-    // console.log('insert')
+    console.log('insert, 123')
   },
   update () {
-    // console.log('update')
+    console.log('update, 123')
   }
 })
 
